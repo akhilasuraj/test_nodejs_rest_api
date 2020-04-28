@@ -22,4 +22,8 @@ app.use(express.json());
 app.use("/api/user", authRoute);
 app.use("/api/posts", postRoute);
 
+app.get("/", (req, res) => {
+  res.send("Node Server is running. Yay!!");
+});
+
 app.listen(process.env.PORT, () => console.log("Server is up and running"));
