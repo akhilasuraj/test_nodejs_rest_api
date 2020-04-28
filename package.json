@@ -4,7 +4,9 @@
   "description": "test backend ",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon index.js"
+    "start": "nodemon index.js",
+    "dev": "nodemon index.js"
+
   },
   "engines": {
     "node": "12.13.1"
